@@ -24,21 +24,18 @@ from datetime import datetime, date
 # ============================================================
 # CONFIG
 # ============================================================
-CH_API_KEY = [INPUT API KEY]
+CH_API_KEY = ##GENERATED API KEY##
 
 DB_CONFIG = {
     "host":     "localhost",
-    "port":     5432 [specific port],
+    "port":     ##DEFINED PORT##,
     "database": "fi_customers",
     "user":     "postgres",
-    "password": "[PGSQL PASSWORD"
+    "password": #DEFINED PGSQL PW##
 }
 
 PANAMA_PATHS = [
-    r"[User_Directory]/panama_papers.nodes.entity.csv",
-    r"[User_Directory]/panama_papers.nodes.officer.csv",
-    r"[User_Directory]/Panama\panama_papers.nodes.intermediary.csv",
-    r"[User_Directory]/Panama\panama_papers.nodes.other.csv",
+    ##DEFINED_DATABASE_DIRECTORY##,
 ]
 
 BASE_URL = "https://api.companieshouse.gov.uk"
